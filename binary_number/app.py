@@ -22,7 +22,7 @@ def is_binary_number(n):
 
 
 def validate_number(x):
-    if x > 65535:
+    if 0 > x or x > 65535:
         raise InvalidError("65535以下の整数値を入力してください。")
 
 
